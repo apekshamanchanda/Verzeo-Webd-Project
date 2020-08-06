@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+	<title>Contact-Company Name</title>
+	<script type="text/javascript" src="jquery-3.5.1.js"></script>
+	<link rel="stylesheet" href="stylesheet_contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="name" content="Interior Design Contacts">
+	</head>
+<body>
+<div id="main">
+	<div id="con">
+		<p>Home / Contacts</p>
+		<h1><strong>Contacts</strong></h1>
+		<h3>How to contact us</h3>
+		<h5 style="font-family: Jazz LET, fantasy">"We are only one call away :-)"</h5>
+		<img src="Contact_img.jpeg" id="contact-img-1">
+		<img src="Contact_img_2.jpeg" id="contact-img-2">
+	</div>
+	<div id="Contact-Box">
+		<div id="query">
+			<h3>Any questions or suggestions?</h3>
+			<h3>Write us a message and we will contact you!</h3>
+		</div>
+			<div id="successMessage">You've done it! Congratulations.</div>
+   			<div id="errorMessage"></div>	
+		<div id="row">
+			<div class="column left" style="background-color: #416564;">
+				<h2 id="Contacts-head"><strong>Contacts</strong></h2>
+				<hr width="50vw" align="left"></hr>
+				<div id="Contacts-info">
+					<h4>1556 Broadway, suite 416 New York, NY 10120 USA</h4>
+					<h4>Mon-Sat: 9am - 6pm</h4>
+					<h4>Sunday:Closed</h4>
+					<h4>company.name@gmail.com</h4>
+					<h4>Phone Number</h4> 
+				</div>
+			</div>
+		<div class="column right" style="background-color: #F5F5F5;">
+			<center>
+				<div class="Contact-us">
+				<table id="Contact-table">
+					<tr>
+						<td><label for="Name">Name</label></td>
+						<td><label for="city">Which city are you from</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="Name" placeholder="Your Name"></td>
+						<td><input type="text" id="city" placeholder="Delhi"></td>
+					</tr>
+					<tr>
+						<td><label for="E-mail">E-mail</label></td>
+						<td><label for="PhoneNumber">Phone Number</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" id="E-mail" placeholder="Your Email"></td>
+						<td><input type="tel" id="PhoneNumber" placeholder="+91 9764451343" pattern="[0-9]{10}" required></td>
+					</tr>
+				</table>
+				<label for="message">Message</label><br>
+				<textarea type="text" rows="4" cols="50" placeholder="Hello! I have this question" id="message"></textarea><input type="image" src="submit.png" alt="Submit message" id="Submit-message">
+		    </div>
+		    </center>
+		</div>
+		</div>
+	</div>
+	<p><span id="social-network">Subscribe to our social networks:</span>
+		<img src="facebook.png" id="facebook"><img src="instagram.jpg" id="instagram"></p>
+</div>
+	<script type="text/javascript">
+		function isEmail(email){
+				var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  				return regex.test(email);
+		}
+		$("#Submit-message").click(function(){
+			var errorMessage = "";
+			var fieldsMissing = "";
+			if ($("#E-mail").val() == ""){
+				fieldsMissing += "<br>Email";
+			}
+			if ($("#Name").val() == ""){
+				fieldsMissing += "<br>Name";
+			}
+			if ($("#city").val() == ""){
+				fieldsMissing += "<br>	City";
+			}
+			if ($("#PhoneNumber").val() == ""){
+				fieldsMissing += "<br>Telephone";
+			}
+			if (fieldsMissing != ""){
+				errorMessage += "<p>The following field(s) are missing:" + fieldsMissing;
+			}
+			if(isEmail($("#E-mail").val()) == false){
+				errorMessage += "<p>Your email address is not valid</p>";
+			}
+			if($.isNumeric($("#PhoneNumber").val()) == false && ($("#PhoneNumber").val() != "")){
+				errorMessage += "<p> Your phone number is not numeric</p>";
+			}
+			if (errorMessage != ""){
+				$("#errorMessage").html(errorMessage);
+			}
+			else{
+				$("#successMessage").show();
+				$("#errorMessage").hide();
+			}
+
+		});
+	</script>
+</body>
+</html>
+
+
+
+
