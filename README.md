@@ -5,8 +5,14 @@ An interior-designer commercial website
 
 WEBSITE / Home Page
 
+https://jovial-shannon-922d56.netlify.app/
+
 
 WEBPAGE
+
+About Us : https://tender-goldstine-53df92.netlify.app/about%20us
+
+Blog : https://vibrant-ramanujan-c698ad.netlify.app/blogpage
 
 Contact : https://murmuring-tundra-78450.herokuapp.com
 
