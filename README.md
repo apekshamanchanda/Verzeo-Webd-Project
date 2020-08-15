@@ -40,6 +40,7 @@ $ psql wfsaleezdtesli -h ec2-54-235-192-146.compute-1.amazonaws.com -d d9frlfrnj
 => \dt
 
 (To view tables in the database)
+
 => select * from tableName;
 
 (Shows all the rows of the table)
