@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+
+body {
+    max-width: 1920px;
+    background: url("leaf.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+
+}
+
+.mainContainer {
+    margin-top: 20rem;
+    text-align: center;
+    font-family: 'Poppins' sans-serif;
+    border: 3px solid teal;
+}
+
+.heading {
+  padding: 10px 0px;
+  text-align: center;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+.content {
+    margin: 5% 10%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Poppins' sans-serif;
+}
+
+.article-img {
+  margin: 20px 0px;
+  width: 70%;
+}
+
+.container {
+    padding: 10px;
+}
+
+.thumbnail {
+  padding-bottom: 2rem;
+  margin: 0px;
+  border-color: transparent;
+}
+
+.sec-text {
+  text-align: left;
+  margin: auto ;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.date{
+  color: grey;
+  font-size: 15px;
+  font-family: 'Poppins' , sans-serif;
+}
+
+.popular {
+  padding: 30px 0px;
+  text-align: left;
+  margin: auto;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.archive-box {
+  margin: 0px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 16px 4px rgba(0,0,0,0.10);
+}
+.arc {
+  padding: 20px 0px;
+  text-align: left;
+  font-family: 'Poppins' sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.arc:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+.sub-box {
+  background-color: teal;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.sub {
+  text-align: center;
+  font-family: 'Sacramento' ;
+  font-size: 60px;
+  color: white;
+}
+
+.news {
+  text-align: center;
+  font-family: 'Poppins' sans-serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px
+}
+
+.glyphicon-chevron-right:hover {
+  padding: 5px;
+  border: 1.5px solid black;
+  border-radius: 100px;
+  color: black;
+}
+
+.btn {
+  display: inline;
+  weight: 25%;
+  background: white;
+  border-radius: 0px;
+  color: teal;
+  font-weight: 600;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16.5px;
+  font-family: 'Poppins' sans-serif;
+
+}
+
+
+.form-control {
+  display:inline;
+  margin: 0px auto 30px auto;
+  padding: 25px;
+  width: 35%;
+  border: solid 2px white;
+  border-radius: 0px;
+  background-color: teal;
+  letter-spacing: 2px;
+}
+
+.form-control::placeholder {
+  color: white;
+  text-align: left;
+  font-family: 'Poppins' sans-serif;
+  font-size: 15px;
+}
+
+.form-control:hover {
+  border: solid 2px black;
+}
+
+.form-control:focus {
+  border: solid 2px black;
+  background-color: teal;
+  color: white;
+}

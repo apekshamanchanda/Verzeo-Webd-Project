@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/13c90a2dd8.js"></script>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Sacramento');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+     .heading {
+      font-family: 'Sacramento' , sans-serif;
+      color: black;
+      font-size: 45px;
+      margin: auto;
+      padding: 7px;
+      <br>
+    }
+
+    .thumbnail {
+      border-right: solid 5px #5c9598;
+      padding: 10px;
+      box-shadow: 10px 0px 0px -5px rgba(0,0,0,0.09);
+    }
+
+
+    .text {
+      font-family: 'Open Sans' , sans-serif;
+      color: black;
+      font-size: 15px;
+      margin: auto;
+      padding: 7px;
+      <br>
+    }
+
+    .btn {
+      background-color: white;
+      font-family: 'Open Sans' , sans-serif;
+      font-weight: bolder;
+      border-bottom:  3px solid #5c9598;
+      color: #5c9598;
+      padding: 10px;
+      padding-bottom: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      color: #5c9598;
+      border-bottom:  0px;
+
+    }
+
+
+
+    .box {
+      background-color: #E2E8E7;
+      padding: 10px;
+
+    }
+
+    .header1 {
+      font-size: 60px;
+      font-family: 'Open Sans' , sans-serif;
+      color: black;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+
+    .sub {
+      font-size: 30px;
+      font-family: 'Open Sans' , sans-serif;
+      color: black;
+    }
+
+    .sub2 {
+      font-size: 38px;
+      font-weight: bold;
+      font-family: 'Open Sans' , sans-serif;
+      color: black;
+
+    }
+
+    .img {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      padding-right: 10px;
+      border-right: 8px solid #5c9598;
+
+    }
+
+    .date {
+      color: grey;
+      font-size: 15px;
+      font-family: 'Open Sans' , sans-serif;
+      padding: 7px;
+    }
+
+    .header{
+      background-color:#e8e8e8;
+          height:90vh;
+          margin-bottom:35px;
+
+  }
+  main{
+    margin-top:-100px;
+  }
+
+
+  .row
+  {
+      max-width:1;
+      margin:0 auto;
+      background-color: #f7f7f7;
+
+  }
+  .text-box{
+
+      margin-top:30%;
+      margin-left:10%;
+
+  }
+  [class^="col-"]
+     { float:left;
+
+  }
+  .col-1-of-2
+  {
+      width:calc((100% - 6rem)/2);}
+
+  .primary-heading{
+      margin-bottom:34px;
+  }
+  .primary-heading-main-sub{
+  color:#777;
+  font-size:19.5px;
+
+  }
+  .primary-heading-main-sub1{
+      color:black;
+      font-size:19.5px;
+      }
+
+  .primary-heading-main{
+      display:block;
+      color:black;
+      font-size: 60px;
+      font-weight:700;
+      animation-name:Moveinbottom;
+      animation-duration:2.5s;
+  letter-spacing:1px;}
+
+  .primary-heading1{
+      margin-bottom: 34px;
+  }
+  .primary-heading-sub{
+      display:block;
+      color:black;
+      font-size:25px;
+      letter-spacing: 0.5px;
+      animation-name:Moveinbottom;
+      animation-duration:2.5s;
+  }
+  @keyframes Moveinbottom
+  {
+      0%{
+          opacity:0;
+          transform:translateY(10rem)
+      }
+      100%
+      {opacity: 1;
+          transform:translateY(1);
+      }
+  }
+
+  .composition
+  {
+      position: relative;
+  }
+  .composition__photo{
+      margin: 20px;
+      width:80%;
+      height: 480px;
+      box-shadow:0 1.5rem 2rem rgba(0,0,0,.4);
+      border-radius:2px ;
+      position: absolute;
+      z-index:10;
+      transition: all .2s;
+      outline-offset:2rem ;
+  }
+  .composition__photo--p1
+  {   left:0;
+      top:11rem;
+
+  }
+  .composition__photo:hover
+  {   outline:1rem solid  #5c9598;
+      transform:scale(1.05) translateY(-.5rem);
+      box-shadow:0 2.5rem 2rem rgba(0,0,0,.5);
+      z-index:20;
+  }
+
+</style>
+
+  <title>blog page</title>
+
+  </head>
+
+  <body>
+
+    <!--nav-->
+   <nav>
+     <!--logo-->
+     <a href="home.html" class="logo">Design<span>Home</span></a>
+     <!--menu-->
+     <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#blog">Blog</a></li>
+         <li><a href="#contact">Contact Us</a></li>
+     </ul>
+         <!--bars-->
+         <div class="toggle" style="display: inline;"></div>
+   </nav>
+
+<!-- HEADER SECTION-->
+
+    <header class="header">
+      <div class="row2">
+          <div class="col-1-of-2">
+              <div class="text-box">
+              <div class="primary-heading">
+                  <span class="primary-heading-main-sub">Home &nbsp; /</span>
+                  <span class ="primary-heading-main-sub1"> &nbsp; &nbsp;Blog</span>
+                  </div>
+                  <h1 class="primary-heading1">
+              <span class="primary-heading-main">BLOG</span></h1>
+              <span class="primary-heading-sub">Our blog and news</span>
+              </div>
+          </div>
+
+
+        <div class="col-1-of-2">
+          <div class="picture-shape">
+            <div class="composition">
+              <img src="main1.jpg" alt="decor photo" class="composition__photo composition__photo--p1">
+                </div>
+            </div>
+          </div>
+      </div>
+    </header>
+
+
+
+
+<!--ARTICLE/BLOG SECTION-->
+
+    <div style="padding-top: 50px"></div>
+
+    <div class="container">
+
+      <h1 class="sub2">Our blog and News</h1><br>
+
+      <div style="padding-top: 40px"></div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="boho.JPG" alt="boho" class="img-responsive">
+            <div class="caption">
+              <p class="date">Aug 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="kitchen.JPG" alt="kitchen" class="img-responsive">
+            <div class="caption">
+              <p class="date">Jul 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="rack.JPG" alt="rack" class="img-responsive">
+            <div class="caption">
+              <p class="date">Jun 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="bathroom.JPG" alt="bathroom" class="img-responsive">
+            <div class="caption">
+              <p class="date">May 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="living_room.JPG" alt="living room" class="img-responsive">
+            <div class="caption">
+              <p class="date">Apr 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="bedroom.JPG" alt="bedroom" class="img-responsive">
+            <div class="caption">
+              <p class="date">Mar 5 , 2020</p>
+              <h1 class="heading">Lorem ipsum</h1>
+              <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
+              <a href="#" class="btn" role="button">View more →</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+<!--FOOTER SECTION-->
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+          <h3>Design<span>Home</span></h3>
+          <p class="footer-links">
+              <a href="#">Home</a>·
+              <a href="#">About Us</a>·
+              <a href="#">Services</a>·
+              <a href="#">Blog</a>·
+              <a href="#">Contact Us</a>
+          </p>
+          <p class="footer-company-name">DesignHome &copy; 2020</p>
+      </div>
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>21 Revolution Street</span> Delhi, India</p>
+          </div>
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+1 555 123456</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:support@company.com">contact@designhome.com</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+          <span>About the company</span>
+          Design Home is a interior designing company. We aim at decorating houses and places with love &amp; creativity.
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-github"></i></a>
+          </div>
+      </div>
+      </footer>
+
+        <script>
+          $(document).ready(function(){
+            $(".services-item").hover(function(){
+              $(this).css("background-color", "rgb(187,187,189,0.6)");
+              $(this).css("font-size","21px");
+              }, function(){
+              $(this).css("background-color", "white");
+              $(this).css("font-size","18px");
+            });
+          });
+        </script>
+        <script src="js/JQuery.js"></script>
+        <script >
+            $(document).ready(function(){
+                $('.start').click(function(){
+                    $('.start').toggleClass('active')
+                    $('banner').toggleClass('active')
+                })
+            })
+        </script>
+        <script src="js/JQuery.js"></script>
+        <script >
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+
+        <script>
+         AOS.init({
+          duration: 1200,
+        })
+      </script>
+
+    </body>
+</html>
