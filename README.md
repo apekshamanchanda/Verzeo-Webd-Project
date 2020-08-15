@@ -1,7 +1,8 @@
 # Verzeo-Webd-Project
 An interior-designer commercial website
 
-BACK END Database Info-->
+# BACK END Database Info-->
+
 Host : ec2-54-235-192-146.compute-1.amazonaws.com
 
 Database : d9frlfrnjqs4p0
