@@ -17,6 +17,9 @@ URI : postgres://wfsaleezdtesli:c1f025acc10c0a89fe6eddd7760293e9160e76b8e375b927
 Heroku CLI : heroku pg:psql postgresql-tetrahedral-34849 --app murmuring-tundra-78450
 
 # COMMANDS TO View DataBase on Terminal/Command line-->
+$ brew install postgresql
+
+$ brew services start postgresql
 
 $ sudo su - postgres
 
