@@ -24,11 +24,12 @@
       font-size: 45px;
       margin: auto;
       padding: 7px;
+      font-weight: 600;
       <br>
     }
 
     .thumbnail {
-      border-right: solid 5px #5c9598;
+      border-right: solid 5px teal;
       padding: 10px;
       box-shadow: 10px 0px 0px -5px rgba(0,0,0,0.09);
     }
@@ -43,12 +44,15 @@
       <br>
     }
 
+    .container {
+      background-color: white;
+    }
+
     .btn {
       background-color: white;
       font-family: 'Open Sans' , sans-serif;
       font-weight: bolder;
-      border-bottom:  3px solid #5c9598;
-      color: #5c9598;
+      color: teal;
       padding: 10px;
       padding-bottom: 5px;
       font-size: 16px;
@@ -56,8 +60,8 @@
     }
 
     .btn:hover {
-      color: #5c9598;
-      border-bottom:  0px;
+      color: white;
+      background: teal;
 
     }
 
@@ -69,34 +73,12 @@
 
     }
 
-    .header1 {
-      font-size: 60px;
-      font-family: 'Open Sans' , sans-serif;
-      color: black;
-      font-weight: bold;
-      padding-bottom: 10px;
-    }
-
-    .sub {
-      font-size: 30px;
-      font-family: 'Open Sans' , sans-serif;
-      color: black;
-    }
-
-    .sub2 {
-      font-size: 38px;
-      font-weight: bold;
-      font-family: 'Open Sans' , sans-serif;
-      color: black;
-
-    }
-
     .img {
       width: 100%;
       height: auto;
       padding: 20px;
       padding-right: 10px;
-      border-right: 8px solid #5c9598;
+      border-right: 8px solid teal;
 
     }
 
@@ -205,10 +187,19 @@
 
   }
   .composition__photo:hover
-  {   outline:1rem solid  #5c9598;
+  {   outline:1rem solid  teal;
       transform:scale(1.05) translateY(-.5rem);
       box-shadow:0 2.5rem 2rem rgba(0,0,0,.5);
       z-index:20;
+  }
+
+  .sub2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .arrow {
+    font-size: 20px;
   }
 
 </style>
@@ -274,6 +265,7 @@
 
       <h1 class="sub2">Our blog and News</h1><br>
 
+
       <div style="padding-top: 40px"></div>
 
       <div class="row">
@@ -285,7 +277,7 @@
               <p class="date">Aug 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -297,7 +289,7 @@
               <p class="date">Jul 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -309,7 +301,7 @@
               <p class="date">Jun 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -325,7 +317,7 @@
               <p class="date">May 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -337,7 +329,7 @@
               <p class="date">Apr 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -349,7 +341,7 @@
               <p class="date">Mar 5 , 2020</p>
               <h1 class="heading">Lorem ipsum</h1>
               <p class="text">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p><br>
-              <a href="#" class="btn" role="button">View more →</a>
+              <a href="shambhavi_blog.html" class="btn" role="button">View more <i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -357,6 +349,11 @@
 
 
       </div>
+
+      <div style="padding-top: 40px"></div>
+
+      <a href="#" class="btn arrow" role="button"><i class="fa fa-chevron-left"></i></a>
+      <a href="#" class="btn arrow" role="button"><i class="fa fa-chevron-right"></i></a>
 
     </div>
 
