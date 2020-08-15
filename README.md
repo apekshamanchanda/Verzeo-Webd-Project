@@ -16,6 +16,8 @@ Blog : https://vibrant-ramanujan-c698ad.netlify.app/blogpage
 
 Contact : https://murmuring-tundra-78450.herokuapp.com
 
+Services:https://elastic-hawking-f9b759.netlify.app/
+
 # BACK END Database Info-->
 
 Host : ec2-54-235-192-146.compute-1.amazonaws.com
