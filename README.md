@@ -36,29 +36,18 @@ URI : postgres://wfsaleezdtesli:c1f025acc10c0a89fe6eddd7760293e9160e76b8e375b927
 
 Heroku CLI : heroku pg:psql postgresql-tetrahedral-34849 --app murmuring-tundra-78450
 
-## COMMANDS TO View DataBase on Terminal/Command line-->
+### view our database on pyadmin 4
 
-$ brew install postgresql
+Install it using=
 
-$ brew services start postgresql
+https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.24/macos/
 
-$ sudo su - postgres
+### Screenshot of the database on Pyadmin -->
 
-$ psql wfsaleezdtesli -h ec2-54-235-192-146.compute-1.amazonaws.com -d d9frlfrnjqs4p0
+<img width="1437" alt="Screenshot 2020-08-16 at 5 50 07 PM" src="https://user-images.githubusercontent.com/62153950/90334163-25a27800-dfe9-11ea-875f-5b60aed967c3.png">
 
-(After entering these command enter password = c1f025acc10c0a89fe6eddd7760293e9160e76b8e375b927a5965790709d2631)
 
-=> \dt
-
-(To view tables in the database)
-
-=> select * from tableName;
-
-(Shows all the rows of the table)
-
-Contact Page Table NAME : customer
-
-### Screenshot OF the Database 
+### Screenshot OF the Database on terminal -->
 
 You add more rows by filling the contact form view them by running the above commands...
 
