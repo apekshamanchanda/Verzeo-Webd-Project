@@ -40,7 +40,7 @@ Heroku CLI : heroku pg:psql postgresql-tetrahedral-34849 --app murmuring-tundra-
 
 Install it using=
 
-https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.24/macos/
+https://www.postgresql.org/download/
 
 ### Screenshot of the database on Pyadmin -->
 
