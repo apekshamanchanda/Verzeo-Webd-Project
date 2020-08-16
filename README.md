@@ -72,3 +72,6 @@ In case You get an application error in Contact form Reopen the link again after
 
 Haven't uploaded it because it was too large to be uploaded
 
+<img width="588" alt="Screenshot 2020-08-16 at 12 31 40 PM" src="https://user-images.githubusercontent.com/62153950/90328756-85cef500-dfbc-11ea-8a7f-c7f561978ef1.png">
+
+
